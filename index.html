@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Picture Progress</title>
+</head>
+<body>
+    <main class="container">
+        <header class="title"><h1>Days Together</h1></header>
+        <section class="container-img">
+            <section class="panel active" style="background-image: url('20220328_165910.jpg')">
+                <h3>March 28, 2022</h3>
+               
+            </section>
+            <section class="panel" style="background-image: url('20220328_165918.jpg')">
+                <h3>March 28, 2022</h3>
+               
+            </section>
+            <section class="panel" style="background-image: url('20220328_170702.jpg')">
+                <h3>March 28, 2022</h3>
+               
+            </section>
+            <section class="panel" style="background-image: url('20220410_161129.jpg')">
+                <h3>April 10, 2022</h3>
+               
+            </section>
+            <section class="panel" style="background-image: url('20220410_161200.jpg')">
+                <h3>April 10, 2022</h3>
+               
+            </section>
+            <section class="panel" style="background-image: url('20220410_161217.jpg')">
+                <h3>April 10, 2022</h3>
+             
+            </section>
+        </section>
+        <section class="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="circle active">1</div>
+            <div class="circle">2</div>
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+            <div class="circle">5</div>
+            <div class="circle">6</div>
+        </section>
+        <div class="btn-container">
+            <button class="btn" id="prev" disabled>Prev</button>  
+            <button class="btn" id="next">Next</button> 
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
